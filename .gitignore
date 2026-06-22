@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data (downloaded at runtime)
+Project/data/cifar10/
+*.tar.gz
+
+# Model checkpoints (too large for git)
+Project/compressed_models/
+*.pth
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
